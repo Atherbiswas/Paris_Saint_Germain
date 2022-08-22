@@ -11,3 +11,14 @@
     color: #FF5E19;
     font-size: 70px;
 }
+.select-v{
+    text-decoration: underline;
+    color:  #FF5E19;
+}
+.ol-type{
+    list-style-type: ;
+}
+.player-list-item{
+    min-height: 400px;
+
+}
