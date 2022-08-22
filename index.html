@@ -140,7 +140,7 @@
                         <div class="col-12">
                             <div class="player-list-item">
                                 <h3 class="text-center select-v">Selected Players : <span id="player-number" class="text-light">0</span> </h3>
-                            <!-- <ol id="player-list" type="1" class="text-light"></ol> -->
+                            <!-- player list part  -->
                             <table>
                               <tbody id="player-list">
                                 
@@ -152,26 +152,24 @@
                         <div class="col-12">
                           <!-- calculate part to total palyer -->
                             <h3 class="text-center select-v">Budget</h3>
+                            <!-- per player cost part -->
                             <h5 class="d-inline text-white-50">Per Player :</h5> <input class="bg-dark border border-1 border-white w-25 text-light" type="number" id="per-playercost">
-
+                              <!-- player total calculate button part -->
                             <button id="btn-calc" type="submit" class="btn btn-primary w-75 mt-3 fs-5">Calculate</button>
-
+                            <!-- player expenses part -->
                             <h5 class="mt-2 text-white-50">Player Expenses:&nbsp;$ <span id="player-expenses">00</span> </h5>
-
-                            <!-- total calculate for player,manager,coach -->
+                            <!-- manager cost part -->
                             <h5 class="d-inline text-white-50">Manager :</h5> <input class="bg-dark border border-1 border-white w-25 text-light" type="number" id="manager-cost"><br><br>
-
+                            <!-- coach cost part -->
                             <h5 class="d-inline text-white-50 mt-3">
                             Coach &nbsp;&nbsp;&nbsp; : &nbsp;</h5><input class="bg-dark border border-1 border-white w-25 text-light" type="number" id="coach-cost">
-
+                            <!-- total calculate button part -->
                             <button id="btn-total-calc" type="submit" class="btn btn-primary w-75 mt-3 fs-5">Calculate Total</button>
+                            <!-- total expenses part -->
                             <h5 class="mt-2 text-white-50">Total Expenses:&nbsp;$ <span id="total-expenses">00</span> </h5>
 
                         </div>
                     </div>
-                    
-                    <!-- total budget part start -->
-                    <!-- total budget part end -->
                 </div>
             </div>
         </section>
@@ -183,11 +181,11 @@
     <footer class="mt-5">
         <hr class="text-light">
         <p class="mt-2 text-center text-light py-2">Copyright @ 2022 All Rights Reserved.</p>
-
     </footer>
     <!-- footer section end  -->
    <!-- bootsrap js script link  -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <!-- javascript file added with link  -->
    <script src="script/playerlist.js"></script>
    <script src="script/utilities.js"></script>
    <script src="script/total.js"></script>
