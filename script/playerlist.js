@@ -13,6 +13,7 @@ function display(selectPlayer){
     `;
     // to add tr into tbody by append child 
     playerAllList.appendChild(tr);
+    
     }
 }
 //common function for player select..

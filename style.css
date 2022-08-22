@@ -19,3 +19,9 @@
     min-height: 400px;
 
 }
+@media screen and (max-width:668px) {
+    .header-banner{
+        flex-direction: column;
+    }
+    
+}
