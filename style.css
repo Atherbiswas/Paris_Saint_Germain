@@ -1,10 +1,8 @@
-body{
-    background-color: #000000;
-}
 .header-banner{
     display: flex;
 }
 .header-p{
     font-family: 'Berkshire Swash', cursive;
     color: #FF5E19;
+    font-size: 70px;
 }
