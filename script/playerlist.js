@@ -3,7 +3,7 @@ const arryPlayerList = [];
 function display(selectPlayer){
     const playerAllList = document.getElementById('player-list');
     playerAllList.innerHTML = '';
-    for(let i = 0; i <arryPlayerList.length; i++){
+    for(let i = 0; i < arryPlayerList.length; i++){
        const pName = arryPlayerList[i].playerName;
        //create tr part...
        const tr = document.createElement('tr');
@@ -13,12 +13,12 @@ function display(selectPlayer){
     `;
     // to add tr into tbody by append child 
     playerAllList.appendChild(tr);
-    
-    }
+}
 }
 //common function for player select..
 function playerSelect(element){
     const playerName = element.parentNode.children[0].innerText;
+    element.disabled = true;
     const playerObj ={
         playerName : playerName
     }
